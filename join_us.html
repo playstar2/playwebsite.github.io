@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css\join_us.css">
+    <title>join us</title>
+</head>
+<body>
+  <audio id="bgSound" loop>
+  <source src="background sound/space.mp3" type="audio/mpeg">
+  </audio>
+  <div id="google_translate_element"></div>
+  <div class="sound">
+        <button onclick="playSound()">Play Background Sound</button></div>
+        <div class="sound2">
+         <button onclick="stopSound()">Stop backgroun Sound</button></div>
+    <form method="">
+        <div class="container">
+         <div class="header"><center><h1>join us</h1></center></div>
+           <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+           </div>
+           <div class="form-group">
+            <label for="name">password:</label>
+            <input type="password" id="name" name="name">
+           </div>
+           <div class="form-group">
+            <label for="name">gender:</label>
+            <input type="radio" name="jenis_kelamin">male<input type="radio" name="jenis_kelamin">female
+           </div>
+           <div class="form-group">
+            <label for="name">hobby:</label>
+             <input type="checkbox" name="hobi">music <input type="checkbox" name="hobi">watching<input type="checkbox" name="hobi">playing game<input type="checkbox" name="hobi">sleep
+           </div>
+           <div class="form-group">
+            <label for="name">date of birth:</label>
+             <input type="date">
+           </div>
+         <center>
+            <a href="thank_you.html" class="submit">submit</a>
+            <a href="index.html" class="submit">cancel</a>
+          </form>
+         </center>
+        </div>
+    </form>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
