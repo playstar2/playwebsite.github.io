@@ -1,0 +1,39 @@
+body{background-image: url(photo/star2.jpeg);
+     background-size: cover;
+     font-family: Arial, Helvetica, sans-serif;}
+.container{background-color: rgb(255, 255, 255);
+           color: rgb(0, 0, 0);
+           padding: 30px;
+           margin-right: 400px;
+           margin-left: 400px;
+           margin-top: 0px;
+           margin-bottom:  5px;
+           border-width: 10px;
+           border-style: solid;
+           border-color: rgb(6, 15, 139);}
+.submit{background-color: #000000;
+		color: white;
+		padding: 10px 20px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 4px;}
+.form-group {display: flex;
+             align-items: center;
+             margin-bottom: 10px;}
+.form-group label {width: 100px;
+                   text-align: right;
+                   margin-right: 10px; }
+#google_translate_element {position: absolute;
+                           top: 5px;
+                           right: 20px;
+                           padding: 5px 10px;
+                           border-radius: 4px;}
+.sound{text-align: right;
+       padding-top: 38px;
+       padding-right: 3px;}
+.sound2{text-align: right;
+       padding-top: 5px;
+       padding-right: 10px;}               

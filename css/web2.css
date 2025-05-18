@@ -1,0 +1,35 @@
+body{background-image: url(photo/star.jpg);
+     background-size: cover;}
+.submit{background-color: #000000;
+		color: white;
+		padding: 10px 20px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 4px;}
+.container{color: black;
+           background-color: white;
+           border-style: solid;
+           border-color:rgb(17, 19, 170);
+           border-width: 5px;
+           width: 50%;
+           margin: auto;
+           padding-top:-90px;
+           padding-left: 10px;
+           padding-bottom: 10px;
+           padding-right: 10px;} 
+.header{font-size: 50px;
+        text-align: center;}
+#google_translate_element {position: absolute;
+                           top: 5px;
+                           right: 20px;
+                           padding: 5px 10px;
+                           border-radius: 4px;}
+.sound{text-align: right;
+       padding-top: 38px;
+       padding-right: 3px;}
+.sound2{text-align: right;
+       padding-top: 5px;
+       padding-right: 10px;}                           
