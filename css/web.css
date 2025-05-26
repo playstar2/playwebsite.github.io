@@ -84,8 +84,3 @@ img{background-size:cover ;
                   z-index: -1;}
 .iffat{padding: -20px;
        margin: -20px;}                                                                                                                                                             
-.image{height: 500px;
-        background-image: url(photo/the_big_crunch.jpg);
-        background-size: cover;
-        border-bottom:10px solid rgb(12, 14, 94);
-        border-top:10px solid rgb(12, 14, 94); }
