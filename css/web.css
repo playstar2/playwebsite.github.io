@@ -73,7 +73,8 @@ img{background-size:cover ;
 .sound2{text-align: right;
        padding-top: 5px;
        padding-right: 10px;}
-#backgroundvideo {
+#backgroundvideo {height:1300;
+                  widht:auto;
                   object-fit: cover;
                   position: fixed;
                   left: 0;
