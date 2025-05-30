@@ -36,7 +36,17 @@ img{max-width: 100%;
        border-color: #2c1370;
        border-width: 7px;
        border-style: solid;
-       margin-right: 10px;}     
+       margin-right: 10px;
+       display: inline-block;
+       margin: 0;
+       padding: 0;
+       line-height: 0;}
+.image img {display: block;
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            border: 0;}            
 .inside{color: black;
         background-color: white;
         padding: 30px;
