@@ -1,7 +1,11 @@
  *{box-sizing: border-box;}
 body{font-family: Arial;
-     margin: 0;}
-.header{background-size: cover;}
+     margin: 0px;}
+.header{width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;}
 .header-main{margin-top:-60px;
              padding-top: -60px;
              padding-left: 20px;
@@ -20,16 +24,19 @@ body{font-family: Arial;
 .link a:hover{background-color: #ddd;
             color: black;}
 .main{padding-left: 40px;
-      padding-right: 40px;
+      padding-right: 30px;
       padding-top: 40px;
       padding-bottom: 40px;
       background-image: url(photo/star2.jpeg);
       background-size: cover;
       font-family: sans-serif;}
-img{background-size:cover ;
-    border-color: #2c1370;
-    border-widht: 20px;
-    border-style: solid;} 
+img{max-width: 100%;
+    max-height: 100%;}
+.image{background-size:cover ;
+       border-color: #2c1370;
+       border-width: 7px;
+       border-style: solid;
+       margin-right: 10px;}     
 .inside{color: black;
         background-color: white;
         padding: 30px;
@@ -64,23 +71,22 @@ img{background-size:cover ;
            transition: ease-in-out 0.5s;}  
 #google_translate_element {position: absolute;
                            top: 5px;
-                           right: 10px;
+                           right: 20px;
                            padding: 5px 10px;
                            border-radius: 4px;}
 .sound{text-align: right;
        padding-top: 38px;
-       padding-right: 5px;}
+       padding-right: 3px;}
 .sound2{text-align: right;
        padding-top: 5px;
-       padding-right: 13px;}
-#backgroundvideo {height:150;
-                  widht:auto;
+       padding-right: 10px;}
+#backgroundvideo {height: 259px;
+                  width: 100%;
                   object-fit: cover;
-                  position: fixed;
+                  position:fixed ;
                   left: 0;
                   right: 0;
                   top: 0;
                   bottom: 0;
                   z-index: -1;}
-.iffat{padding: -20px;
-       margin: -20px;}                                                                                                                                                             
+.iffat{margin: -20px;}                                                                                                                                                             
